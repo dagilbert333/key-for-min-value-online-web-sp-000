@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       end
     end
   elsif name_hash == {}
-    return min_value
+    return min_key
   end
-  min_value
+  min_key
 end
